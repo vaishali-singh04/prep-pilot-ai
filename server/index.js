@@ -23,12 +23,11 @@ app.post(
 );
 */
 
-app.use(cors(
-    {origin:"https://prep-pilot-ai-wz5b.onrender.com",
-        credentials:true,
-        methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"]
-    }
-))
+app.use(cors({
+  origin: "https://prep-pilot-ai-six.vercel.app",
+  credentials: true,
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"]
+}))
 
 
 
