@@ -24,7 +24,10 @@ app.post(
 */
 
 app.use(cors({
-  origin: "https://prep-pilot-ai-six.vercel.app",
+  origin: [
+  "http://localhost:5173",
+  "https://prep-pilot-ai-six.vercel.app"
+], 
   credentials: true,
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"]
 }))
