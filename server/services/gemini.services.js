@@ -5,6 +5,8 @@ const Gemini_URL =
 export const generateGeminiResponse = async (prompt) => {
 
     try {
+      console.log("Gemini Key:",process.env.GEMINI_API_KEY);
+        
          const response = await fetch(`${Gemini_URL}?key=${process.env.GEMINI_API_KEY}`,{
         method:"POST",
         headers: {
@@ -43,7 +45,7 @@ export const generateGeminiResponse = async (prompt) => {
       .replace(/```/g, "")
       .trim();
 
-      return JSON.parse(cleanText);
+      return JSON.parse(cleanText); 
 
 
 
