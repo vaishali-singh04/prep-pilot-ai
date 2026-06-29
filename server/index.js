@@ -24,7 +24,7 @@ app.post(
 */
 
 app.use(cors(
-    {origin:"http://localhost:5173",
+    {origin:"https://prep-pilot-ai-wz5b.onrender.com",
         credentials:true,
         methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"]
     }
