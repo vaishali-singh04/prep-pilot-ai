@@ -22,10 +22,13 @@ function Auth() {
       })
       dispatch(setUserData(result.data))
     } catch (error) {
-      console.log(error)
-    }
-  }
-  return (
+  console.log(error);
+  console.log(error.code);
+  console.log(error.message);
+  alert(error.code + "\n" + error.message);
+}  
+}
+return (
     <div className='min-h-screen overflow-hidden bg-gradient-to-br from-slate-950 via-gray-900 to-indigo-950 text-white px-8'>
         <motion.header 
         initial = {{opacity: 0 , y:-15}}

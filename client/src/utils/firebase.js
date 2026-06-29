@@ -3,12 +3,12 @@ import { initializeApp } from "firebase/app";
 import {getAuth, GoogleAuthProvider} from "firebase/auth"
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: "examnotesai-4b733.firebaseapp.com",
-  projectId: "examnotesai-4b733",
-  storageBucket: "examnotesai-4b733.firebasestorage.app",
-  messagingSenderId: "923376142767",
-  appId: "1:923376142767:web:5baf3e9798efc99a48c75a"
+  apiKey: "AIzaSyBUEb8JyS4FpEXNih0mduMCtroIgwFIhg8" ,
+  authDomain: "preppilotai-d4784.firebaseapp.com",
+  projectId: "preppilotai-d4784",
+  storageBucket: "preppilotai-d4784.firebasestorage.app",
+  messagingSenderId: "755718198377",
+  appId: "1:755718198377:web:d9161978776a073aaf7ef8"
 };
 
 
